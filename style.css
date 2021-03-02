@@ -12,6 +12,7 @@
     width: 100%;
     height: 100vh;
     background-color: red;
+    position: relative;
 }
 
 .menu {
@@ -40,7 +41,31 @@
 
 }
 
+.box1 img, .box2 img, .box3 img{
 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.box1 .spot, .box2 .spot, .box3 .spot{
+
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+
+.box1 .spot h1, .box2 .spot h1 {
+
+    color: yellow;
+    padding-top: 40px;
+    font-family: 'RocknRoll One', sans-serif;
+}
 
 
 
@@ -49,6 +74,7 @@
     width: 100%;
     height: 100vh;
     background-color: green;
+    position: relative;
 }
 
 
@@ -57,4 +83,12 @@
     width: 100%;
     height: 100vh;
     background-color: yellow;
+    position: relative;
+}
+
+.box3 .spot h1 {
+
+    color: green;
+    padding-top: 40px;
+    font-family: 'RocknRoll One', sans-serif;
 }
