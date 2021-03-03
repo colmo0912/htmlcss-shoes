@@ -18,8 +18,10 @@
 .menu {
 
     padding: 30px;
-    position: absolute;
+    position: fixed;
     right: 0;
+    opacity: 1;
+    z-index: 1;
 
 }
 
@@ -30,7 +32,7 @@
     padding: 10px;
     background-color: white;
     border-radius: 50%;
-    margin: 10px;
+    margin: 20px;
     font-weight: 800;
 
 }
@@ -44,7 +46,7 @@
 .box1 img, .box2 img, .box3 img{
 
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
 
@@ -53,7 +55,7 @@
 .box1 .spot, .box2 .spot, .box3 .spot{
 
     position: absolute;
-    top: 80%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
