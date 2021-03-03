@@ -46,7 +46,7 @@
 .box1 img, .box2 img, .box3 img{
 
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 
@@ -55,7 +55,7 @@
 .box1 .spot, .box2 .spot, .box3 .spot{
 
     position: absolute;
-    top: 70%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
